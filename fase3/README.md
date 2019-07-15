@@ -52,7 +52,7 @@ curl --request POST \
 #### Get student by ID
 ```
 curl --request GET \
-  --url http://localhost:3000/api/v1/students/95beecb9-643b-4401-8aac-ec31f6af4778
+  --url http://localhost:3000/api/v1/students/:id
 ```
 
 #### Get all students
@@ -66,7 +66,7 @@ curl --request GET \
 
 ```
 curl --request PUT \
-  --url http://localhost:3000/api/v1/students/95beecb9-643b-4401-8aac-ec31f6af4778 \
+  --url http://localhost:3000/api/v1/students/:id \
   --header 'content-type: application/json' \
   --data '{
 	"grades": [
@@ -83,5 +83,5 @@ curl --request PUT \
 
 ```
 curl --request DELETE \
-  --url http://localhost:3000/api/v1/students/95beecb9-643b-4401-8aac-ec31f6af4778
+  --url http://localhost:3000/api/v1/students/:id
 ```
