@@ -1,0 +1,16 @@
+{
+  "name": "fase2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc student.ts",
+    "start": "node student.js",
+    "compandstart": "tsc student.ts && node student.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
