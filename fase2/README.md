@@ -2,7 +2,7 @@
 
 ## Istruzioni per la compilazione
 
-Per compilare ed eseguire il progetto in typescript bisogna avere NodeJS installato, poi bisogna installare le dipendenze:
+Per compilare ed eseguire il progetto presente nella directory typescript bisogna avere NodeJS installato, poi bisogna installare le dipendenze:
 
 ```
 $ npm install
